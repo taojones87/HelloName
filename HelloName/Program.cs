@@ -6,7 +6,10 @@ namespace HelloName
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name = "Matthew Peters";
+            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine("Hello " + name + "!");
+            Console.ReadKey(true);
         }
     }
 }
